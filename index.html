@@ -1,436 +1,471 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eduard's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="mediaqueries.css">
-</head>
-<body>
-  <nav id="desktop-nav">
-    <div class="logo">Eduard  Kartman</div>
-    <div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduard's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Eduard Kartman</div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </div>
-  </nav>
+    </nav>
 
-  <nav id="hamburger-nav">
-    <div class="logo">Eduard Kartman</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
+    <nav id="hamburger-nav">
+      <div class="logo">Eduard Kartman</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-      </div>
-    </div>
-  </nav>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <seciton id="profile">
-    <div class="section__pic-container">
-      <img src="./assets/profile-pic.png" alt="Eduard profile picture">
-    </div>
-    <div class="section__text">
-      <p class="section__text__p1">Hello, I am</p>
-      <h1 class="title">Eduard Kartman</h1>
-      <p class="section__text__p2">Junior Developer</p>
-      <div class="btn-container">
-        <button
-          class="btn btn-color-2"
-          onclick="window.open('./assets/eduard-resume.pdf')"
-          >
-          Download CV</button>
-        <button
-        class="btn btn-color-1"
-        onclick="location.href='index.html#contact'"
-        >
-        Contact Info
-      </button>
-      </div>
-      <br>
-      <div class="socials-container">
-        <img
-          src="./assets/linkedin.png"
-          alt="My LinkedIn Profile"
-          class="icon"
-          onclick="location.href='https://linkedin.com/in/eduardkartman'"
-        />
-        <img
-          src="./assets/github.png"
-          alt="My GitHub Repositories"
-          class="icon"
-          onclick="location.href='https://github.com/eduardkartman?tab=repositories'"
-        />
-      </div>
-    </div>
-  </seciton>
-  <br/>
-  <br/>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <section id="about">
-  <br>
-  <br>
-  <br>
-    <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title">About Me</h1>
-    <div class="section-container">
+    </nav>
+
+    <section id="profile">
       <div class="section__pic-container">
-        <img
-          src="./assets/about-pic.JPG"
-          alt="Profile picture"
-          class="about-pic"/>
+        <img src="./assets/profile-pic.png" alt="Eduard profile picture" />
       </div>
-      <div class="about-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <img
-              src="./assets/experience.png"
-              alt="experience icon"
-              class="icon"
-            />
-            <h3>Experience</h3>
-            <p>Contract (6 months)
-              <h3>Junior Fullstack Developer <br><h4> NetCare International ApS </h4>
-              </h3>
-            </p>
-            <br>
-            <p>Internship (4 months)
-              <h3>.NET Developer Trainee <br><h4>Suvoda Software</h4>
-              </h3>
-            </p>
-            <br>
-            <p>Summer Practice (2 months)
-              <h3>Junior Automation Engineer  <br><h4>Caditec Automation</h4>
-              </h3>
-            </p>
-          </div>
-          <div class="details-container">
-            <img
-              src="./assets/education.png"
-              alt="experience icon"
-              class="icon"
-            />
-            <h3>Education</h3>
-            <br>
-            <p> B.Eng. Bachelors Degree
-              <br /><h3>“Transylvania” University of Brasov, Romania</h3>
-              Automation Engineering and Computer Science
-            </p>
-            <br>
-            <p> Certificate
-              <br /><h3>Web Design</h3>
-              Ministry of Education of Romania
-            </p>
-            <br>
-            <p> Courses
-              <br /><h4>The Complete JavaScript Course</h4>
-                <h4>The Ultimate C# Course</h4>
-                <h4>Angular - The Complete Guide (2024 Edition)</h4>
-            </p>
-
-
-          </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I am</p>
+        <h1 class="title">Eduard Kartman</h1>
+        <p class="section__text__p2">Junior Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" id="download-cv-btn">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" id="contact-info-btn">
+            Contact Info
+          </button>
         </div>
-        <div class="text-container">
-          <h3>Junior Software Developer on a Quest for Excellence 🚀💻</h3>
-          <br>
-          <p> I am a recent graduate in Automation Engineering and Computer Science with a passion for software development. 🎓 Armed with a strong foundation in C#, .NET Framework, Entity Framework, SQL, HTML, CSS, and JavaScript, I bring hands-on experience from internships and academic projects. 💻 My analytical thinking, innovative problem-solving, and adaptability make me well-suited for a Junior Software Engineer role in a dynamic team. 🚀</p>
+        <div class="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn Profile"
+            class="icon"
+            id="linkedin-icon"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My GitHub Repositories"
+            class="icon"
+            id="github-icon"
+          />
         </div>
       </div>
-    </div>
-    <img
-      src="./assets/arrow.png"
-      alt="arrow icon"
-      class="icon arrow"
-      onclick="location.href='index.html#experience'">
-  </section>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </section>
 
-  <section id="experience">  
-    <!-- <br><br><br><br><br>     -->
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
-    <br><br><br><br>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <!-- Frontend Development -->
-        <div class="details-container">
-          <h2 class="experience-sub-title">Frontend Development</h2>
-          <div class="article-container">
-            <div class="column">
-              <article>
-                <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                  <h3>Angular</h3>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                  <h3>TypeScript</h3>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                  <h3>JavaScript</h3>
-              </article>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.JPG"
+            alt="About picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="section-container">
+            <div class="about-details-container">
+              <div class="about-containers">
+                <div class="details-container">
+                  <img
+                    src="./assets/experience.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <h3>Experience</h3>
+                  <br />
+                  <p>
+                    <strong>Junior Fullstack Developer</strong> -
+                    <strong>NetCare International ApS</strong>
+                  </p>
+                  <p>Jan - Jun 2024</p>
+                  <p>
+                    <strong>.NET Developer Trainee</strong> -
+                    <strong>Suvoda Software</strong>
+                  </p>
+                  <p>Jan - May 2023</p>
+                  <p>
+                    <strong>Junior Automation Engineer</strong> -
+                    <strong>Caditec Automation</strong>
+                  </p>
+                  <p>Jul - Aug 2021</p>
+                </div>
+                <div class="details-container">
+                  <img
+                    src="./assets/education.png"
+                    alt="Education icon"
+                    class="icon"
+                  />
+                  <h3>Education</h3>
+                  <p>
+                    B.Eng. Bachelor's Degree:<br /><strong
+                      >“Transylvania” University of Brasov, Romania</strong
+                    >
+                  </p>
+                  <p>Automation Engineering and Computer Science</p>
+                  <p>
+                    <strong>Web Design Certificate</strong> - Ministry of
+                    Education of Romania
+                  </p>
+                  <br />
+                  <p>
+                    <strong
+                      >"Complete JavaScript Course" - Jonas Schmedtmann</strong
+                    >
+                  </p>
+                  <p>
+                    <strong
+                      >"The Ultimate C# Course" - Krystyna Ślusarczyk</strong
+                    >
+                  </p>
+                  <p>
+                    <strong
+                      >"Angular - The Complete Guide" - Maximilian
+                      Schwarzmüller</strong
+                    >
+                  </p>
+                </div>
               </div>
-            <div class="column">
-              <article>
-                <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                  <h3>Vue.js</h3>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                  <h3>HTML</h3>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                  <h3>CSS</h3>
-              </article>
             </div>
           </div>
-        </div>
 
-        <!-- Backend Development -->
-        <div class="details-container">
-          <h2 class="experience-sub-title">Backend Development</h2>
-          <div class="article-container">
-            <div class="column">
-              <article>
-                <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                  <h3>.NET</h3>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                  <h3>C#</h3>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                  <h3>Java</h3>
-              </article>
-            </div>
-            <div class="column">
-              <article>
-                <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                  <h3>SQL</h3>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                  <h3>Git</h3>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
-                  <h3>Arduino</h3>
-              </article>
-            </div>
+          <div class="text-container">
+            <h3>Junior Software Developer on a Quest for Excellence 🚀💻</h3>
+            <p>
+              I am a recent graduate in Automation Engineering and Computer
+              Science with a passion for software development. Armed with a
+              strong foundation in C#, .NET Framework, Entity Framework, SQL,
+              HTML, CSS, and JavaScript, I bring hands-on experience from
+              internships and academic projects. My analytical thinking,
+              innovative problem-solving, and adaptability make me well-suited
+              for a Junior Software Engineer role in a dynamic team.
+            </p>
           </div>
         </div>
-      </div>
-    </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='index.html#projects'" />
-  </section>
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/project-1.png"
-              alt="Project 1"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Dental Clinic 🦷</h2>
-          <p>ASP.MVC Core Project</p>
-          <br>
-          <div class="btn-container">
-            <button
-              class="btn btn-color project-btn"
-              onclick="location.href='https://github.com/eduardkartman/DentalClinic'"
-            >GitHub</button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/project-2.png"
-              alt="Project 1"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">To DO List 📝</h2>
-          <p>SpringMVC Project</p>
-          <br>
-          <div class="btn-container">
-            <button
-              class="btn btn-color project-btn"
-              onclick="location.href='https://github.com/eduardkartman/ToDoApp'"
-            >GitHub</button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/project-3.png"
-              alt="Project 1"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Bankist App 💳</h2>
-          <p>JavaScript Project</p>
-          <br>
-          <div class="btn-container">
-            <button
-              class="btn btn-color project-btn"
-              onclick="location.href='https://github.com/eduardkartman/BankistApp/tree/main/12-Numbers-Dates-Timers-Bankist'"
-            >GitHub</button>
-          </div>
-        </div>
-      </div>
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-4.png" alt="Project 4" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Splendid Food 🥗</h2>
-          <p>Vue.js Project</p>
-          <br>
-          <div class="btn-container">
-            <button class="btn btn-color project-btn" onclick="location.href='https://github.com/eduardkartman/product-and-cart'">GitHub</button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-5.png" alt="Project 5" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Pig Game 🎲</h2>
-          <p>Javascript Project</p>
-          <br>
-          <div class="btn-container">
-            <button class="btn btn-color project-btn" onclick="location.href='https://github.com/eduardkartman/Pig-Game'">GitHub</button>
-          </div>
-        </div>
-
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-6.png" alt="Project 6" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Mapty 📍</h2>
-          <p>Javascript Project</p>
-          <br>
-          <div class="btn-container">
-            <button class="btn btn-color project-btn" onclick="location.href='https://github.com/eduardkartman/mapty'">GitHub</button>
-          </div>
-        </div>
-      </div>
       </div>
       <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='index.html#contact'"
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        id="experience-arrow"
       />
-    </div>
-  </section>
-  <br>
-  <br>
-  <br>
-  <br>  <br>
-  <br>
-  <br>
-  <br>  <br>
-  <br>
-  <br>
-  <br>  <br>
-  <br>
-  <br>
-  <br>  <br>
-  <br>
-  <br>
-  <br>  <br>
-  <br>
-  <br>
-  <br>  <br>
-  <br>
-  <br>
-  <br>  <br>
-  <br>
-  <br>
-  <section id="contact">
-    <p class="section__text__p1">Let's get in touch</p>
-    <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-      <div class="contact-info-container">
-        <img
-          src="./assets/email.png"
-          alt="Email Icon"
-          class="icon contact-icon email-icon"
-        />
-        <p><a href="mailto:eduard.kartman10@gmail.com">eduard.kartman10@gmail.com</a></p>
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- Frontend Development -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <div class="column">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Checkmark icon"
+                    class="icon"
+                  />
+                  <h3>Angular</h3>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Checkmark icon"
+                    class="icon"
+                  />
+                  <h3>TypeScript</h3>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Checkmark icon"
+                    class="icon"
+                  />
+                  <h3>JavaScript</h3>
+                </article>
+              </div>
+              <div class="column">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Checkmark icon"
+                    class="icon"
+                  />
+                  <h3>Vue.js</h3>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Checkmark icon"
+                    class="icon"
+                  />
+                  <h3>HTML</h3>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Checkmark icon"
+                    class="icon"
+                  />
+                  <h3>CSS</h3>
+                </article>
+                <br />
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Development -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <div class="column">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Checkmark icon"
+                    class="icon"
+                  />
+                  <h3>.NET</h3>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Checkmark icon"
+                    class="icon"
+                  />
+                  <h3>C#</h3>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Checkmark icon"
+                    class="icon"
+                  />
+                  <h3>Java</h3>
+                </article>
+              </div>
+              <div class="column">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Checkmark icon"
+                    class="icon"
+                  />
+                  <h3>SQL</h3>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Checkmark icon"
+                    class="icon"
+                  />
+                  <h3>Git</h3>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Checkmark icon"
+                    class="icon"
+                  />
+                  <h3>Arduino</h3>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="contact-info-container">
-        <img
-          src="./assets/linkedin.png"
-          alt="LinkedIn Icon"
-          class="icon contact-icon"
-        />
-        <p><a href="https://www.linkedin.com/in/eduardkartman/">LinkedIn</a></p>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        id="projects-arrow"
+      />
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Dental Clinic 🦷</h2>
+            <p>ASP.MVC Core Project</p>
+            <div class="btn-container">
+              <button class="btn btn-color project-btn" id="dental-clinic-btn">
+                GitHub
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">To DO List 📝</h2>
+            <p>SpringMVC Project</p>
+            <div class="btn-container">
+              <button class="btn btn-color project-btn" id="todo-list-btn">
+                GitHub
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Bankist App 💳</h2>
+            <p>JavaScript Project</p>
+            <div class="btn-container">
+              <button class="btn btn-color project-btn" id="bankist-app-btn">
+                GitHub
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-4.png"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Splendid Food 🥗</h2>
+            <p>Vue.js Project</p>
+            <div class="btn-container">
+              <button class="btn btn-color project-btn" id="splendid-food-btn">
+                GitHub
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-5.png"
+                alt="Project 5"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Pig Game 🎲</h2>
+            <p>JavaScript Project</p>
+            <div class="btn-container">
+              <button class="btn btn-color project-btn" id="pig-game-btn">
+                GitHub
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-6.png"
+                alt="Project 6"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Mapty 📍</h2>
+            <p>JavaScript Project</p>
+            <div class="btn-container">
+              <button class="btn btn-color project-btn" id="mapty-btn">
+                GitHub
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="contact-info-container">
-        <img
-          src="./assets/phone-icon.png"
-          alt="LinkedIn Icon"
-          class="icon contact-icon"
-        />
-        <p><a href="tel:+40773990048">NL: +31 653 409 314</a> | </p>
-        <p><a href="tel:+40773990048">RO: +40 773 990 048</a></p>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        id="contact-arrow"
+      />
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Let's get in touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email Icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:eduard.kartman10@gmail.com"
+              >eduard.kartman10@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn Icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/eduardkartman/">LinkedIn</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/phone-icon.png"
+            alt="Phone Icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="tel:+31653409314">NL: +31 653 409 314</a> |
+            <a href="tel:+40773990048">RO: +40 773 990 048</a>
+          </p>
+        </div>
       </div>
-    </div>
-  </section>
-  <footer>
-    <nav>
-      <div class="nav-links-container">
+    </section>
+
+    <footer>
+      <nav>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
-    </nav>
-    <p>Copyright &#169; 2023 Eduard Kartman. All Rights Reserved.</p>
-  </footer>
-  <script src="script.js"></script>
-</body>
+      </nav>
+      <p>Copyright &#169; 2023 Eduard Kartman. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
