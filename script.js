@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const splendidFoodBtn = document.getElementById("splendid-food-btn");
   const pigGameBtn = document.getElementById("pig-game-btn");
   const maptyBtn = document.getElementById("mapty-btn");
+  const quizAppBtn = document.getElementById("quiz-app-btn");
+  const artistPortfolioBtn = document.getElementById("artist-portfolio-btn");
 
   // Toggle menu function
   icon.addEventListener("click", function () {
@@ -73,5 +75,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   maptyBtn.addEventListener("click", function () {
     window.location.href = "https://github.com/eduardkartman/mapty";
+  });
+
+  quizAppBtn.addEventListener("click", function () {
+    window.location.href = "https://github.com/eduardkartman/quiz-app";
+  });
+
+  artistPortfolioBtn.addEventListener("click", function () {
+    window.location.href =
+      "https://github.com/eduardkartman/artist-portfolio-frontend";
   });
 });
