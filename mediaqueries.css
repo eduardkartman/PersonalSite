@@ -47,6 +47,7 @@
 
   .about-containers {
     margin-top: 0;
+    flex-wrap: wrap;
   }
 }
 
@@ -103,5 +104,9 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .about-containers {
+    margin-top: 0;
+    flex-wrap: wrap;
   }
 }
