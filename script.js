@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const maptyBtn = document.getElementById("mapty-btn");
   const quizAppBtn = document.getElementById("quiz-app-btn");
   const artistPortfolioBtn = document.getElementById("artist-portfolio-btn");
-  const flyAwayBtn = this.doctype.getElementById("fly-away-btn");
+  const flyAwayBtn = document.getElementById("fly-away-btn");
 
   // Toggle menu function
   icon.addEventListener("click", function () {
