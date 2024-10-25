@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const quizAppBtn = document.getElementById("quiz-app-btn");
   const artistPortfolioBtn = document.getElementById("artist-portfolio-btn");
   const flyAwayBtn = document.getElementById("fly-away-btn");
+  const eatNSplitBtn = document.getElementById("eat-n-split-btn");
+  const usePopcornBtn = document.getElementById("use-popcorn-btn");
 
   // Toggle menu function
   icon.addEventListener("click", function () {
@@ -89,5 +91,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   flyAwayBtn.addEventListener("click", function () {
     window.location.href = "https://github.com/eduardkartman/travel-list";
+  });
+  eatNSplitBtn.addEventListener("click", function () {
+    window.location.href = "https://github.com/eduardkartman/eat-n-split";
+  });
+  usePopcornBtn.addEventListener("click", function () {
+    window.location.href = "https://github.com/eduardkartman/usepopcorn";
   });
 });
